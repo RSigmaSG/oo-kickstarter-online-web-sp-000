@@ -9,10 +9,13 @@ class Project
     
   end
   
-  def backers
+  def add_backer(backer)
     
-    @backers
+    @backers << backer
+    backer.add
     
   end
+  
+
   
 end
